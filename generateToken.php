@@ -1,5 +1,9 @@
 <?php
-    include("connect_database.php");
+    header("Access-Control-Allow-Origin: *"); 
+    header("Access-Control-Allow-Methods: POST, GET, OPTIONS"); 
+    header("Access-Control-Allow-Headers: Content-Type"); 
+    header("Access-Control-Allow-Credentials: true");
+    include("connect_datebase.php");
 
     $SECRET_KEY = "Asdfg123";
 
